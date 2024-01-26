@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.nav{
+
+    height: 100px;
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.img img{
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+
+}
+#h1{
+    font-size: 45px;
+    color: rgb(145, 94, 18);
+}
+#h2{
+    color: #d17f03;
+font-size: 20px;
+margin-top: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #BF3131;
+
+}
+
+p a{
+    text-decoration: none;
+    color: #EFD196;
+    margin: 20px;
+    border: 2px solid transparent;
+    padding: 10px;
+    
+}
+p a:hover{
+    border: 2px solid white;
+} 
+#main{
+    background-image: url(2.webp);
+    background-color: #BF3131;
+    border: 5px solid brown;
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+}
+
+.row1{
+    
+    margin: 10px, 100px, 0, 100px;
+    color: #d31818;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn1{
+    background-color: #d31818;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;   
+    background-color: #d31818;
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: 1rem;
+
+}
+.btn1:hover{
+    border: 3px solid white;
+
+}
+
+.cont button{
+    background-color: #d31818;
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: 1.2rem;
+    position: relative;
+    top: 30px;
+    
+}
+.cont button:hover{
+    border: 3px solid white;
+}
+.row2{
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+.row3{
+    height: 400px;
+    width: 300px;
+}
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+
+}
+.hh{
+    height: 200px;
+    width: 280px;
+    background-image: url(food2.jpeg);
+    background-size: cover;
+    border: 4px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px black;
+    border-radius: 15px;
+
+}
+
+.hh1{
+    height: 200px;
+    width: 280px;
+    background-image: url(food1.jpeg);
+    background-size: cover;
+    border: 4px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px black;
+    border-radius: 15px;
+}
+
+.top2{
+    text-align: center;
+}
+
+.cntr{
+    margin: 0;
+    background-image: url(2.webp);
+    height: 500px;
+    border: 4px solid #BF3131;
+
+}
+.container{
+    margin: 0;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.row4{
+    height: 300px;
+    width: 200px;
+    margin: 15px;
+    align-items: center;
+    
+}
+.pic1{
+    margin: 20px;
+    height: 200px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(4.webp);
+    border: 4px solid pink;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px black;
+
+}
+.btn{
+    margin-left: 45px;
+}
+
+.row5{
+    height: 300px;
+    width: 200px;
+    margin: 15px;
+    align-items: center;
+    
+}
+.pic2{
+    margin: 20px;
+    height: 200px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(food.jpeg);
+    border: 4px solid pink;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px black;
+
+}
+.btn{
+    margin-left: 45px;
+}
+.row6{
+    height: 300px;
+    width: 200px;
+    margin: 15px;
+    align-items: center;
+    
+}
+.pic3{
+    margin: 20px;
+    height: 200px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(5.jpeg);
+    border: 4px solid pink;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px black;
+
+
+}
+.btn{
+    margin-left: 45px;
+    background-color: #d31818;
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: .85rem;
+}
+.btn:hover{
+    border: 3px solid white;
+}
+footer{
+    background-color: #EFD196;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
